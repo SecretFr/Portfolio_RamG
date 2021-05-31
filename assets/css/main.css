@@ -1,31 +1,134 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: gray;
 }
 
+p {
+    font-size: 12px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+}
+
+header .logo {
+    float: left;
+    color: orange;
+    
+}
+
+nav {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+    color: black;
+    
+}
+
+.container-fluid {
+    width:100%;
+    margin: auto;
+    
+}
+
+.navbar {
+    height: 100px;
+}
+
+.banner {
+    width:100%;
+    height:500px;
+    position: relative;
+    clear: left;
+}
+
+.banner::before {
+    
+    content: "";
+    background-image: url("/assets/img/93462_48575_244.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-attachment: fixed;
+    
+}
+
+.banner .bannerText {
+    position: relative;
+    top: 200px;
+}
+
+.banner h2{
+    width: 300px;
+    text-align: center;
+    margin:auto;
+}
+
+.banner p{
+    width:400px;
+    text-align: center;
+    margin:auto;
+    margin-top: 10px;
+}
+
+.banner .btn{
+    width:150px;
+    padding: 15px 0;
+    background-color: white;
+    border-radius:20px;
+    margin-top: 30px;
+}
+/*
 .intro {
     height: 120px;
     background-color: rgb(42,193,188);
     padding: 20px;
 }
+*/
 
-
-#about {
+/*#about {
     height:300px;
     background-color: aquamarine;
     margin: 20px 0;
-}
+}*/
 
-#about p {
-    font-size: 20px;
-    color: black;
+#about img {
+    width:300px;
+    height:auto;
 }
-
-#about caption {
-    text-align: center;
+.contentLeft {
+    width: 50%;
 }
-
+.contentLeft img {
+    /*float: left;*/
+}
+.contentRight {
+    margin-left : 20px;
+}
+/*
 #project {
     height:300px;
     background-color: aquamarine;
@@ -34,5 +137,10 @@ body {
 
 #project p {
     font-size: 20px;
-    color: white;
+    color: black;
 }
+
+#project img {
+    width:300px;
+    height:auto;
+}*/
